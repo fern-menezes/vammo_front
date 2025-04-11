@@ -1,1 +1,23 @@
 @import "tailwindcss";
+@import url(./styles/buttons.css);
+
+:root{
+    --black: #212121;
+    --white: #f6f5fa;
+    --gainsboro: #E6E6E6;
+    --purple: #7524F3;
+    --purpleDark: #6028bb;
+    --yellow: #D8F505;
+    --yellowDark: #c6da33;
+    --blue: #D8DFE9;
+}
+
+body {
+    font-family: "Urbanist", sans-serif;
+    background-color: var(--gainsboro);
+    color: var(--black);
+}
+
+.bghome{
+    background-image: url(./pages/initial/fundo.png);
+}
