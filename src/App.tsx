@@ -1,3 +1,4 @@
+import Dashboard from "./pages/dashboard/Dashboard"
 import Home from "./pages/home/Home"
 
   function App() {
@@ -5,6 +6,7 @@ import Home from "./pages/home/Home"
     return (
       <>
       <Home />
+      <Dashboard />
       </>
       
     )
