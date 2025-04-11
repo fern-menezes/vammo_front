@@ -15,7 +15,7 @@ export default function Dashboard() {
       <SourceContext.Provider value={{ source, setSource }}>
         <DestinationContext.Provider value={{ destination, setDestination }}>
           <LoadScriptNext
-            googleMapsApiKey="AIzaSyChczVv3A142QlHkOo_zlBHnOx9HXO9VeQ"
+            googleMapsApiKey={process.env.VITE_GOOGLE_MAPS_API_KEY}
             libraries={['places']}
           >
             <main className="grid lg:grid-cols-2 sm:grid-cols-1">
