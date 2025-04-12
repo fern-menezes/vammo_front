@@ -79,11 +79,14 @@ export default function SignUp() {
         <form className="flex justify-center items-center flex-col w-4/5 gap-4 mx-auto" 
         onSubmit={cadastrarNovoUsuario}>
           {/* Logo centralizada */}
-          <img
-            src="https://ik.imagekit.io/grupo03/Vammo/vammoblack.png?updatedAt=1741184618721"
-            alt="Logo Vammo"
-            className="w-30"
-          />
+          <Link to='/'>
+            <img
+              src="https://ik.imagekit.io/grupo03/Vammo/vammoblack.png?updatedAt=1741184618721"
+              alt="Logo Vammo"
+              className="w-30"
+            />
+          </Link>
+          
 
           <h2 className="text-2xl font-bold">Crie uma conta</h2>
           <p>Adicione algumas informações para sua nova conta</p>

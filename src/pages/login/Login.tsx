@@ -57,11 +57,13 @@ export default function Login(): JSX.Element {
         {/* Formulário centralizado */}
         <form className="flex justify-center items-center flex-col w-3/5 gap-2 mx-auto" onSubmit={login}>
           {/* Logo centralizada */}
-          <img
-            src="https://ik.imagekit.io/grupo03/Vammo/vammoblack.png?updatedAt=1741184618721"
-            alt="Logo Vammo"
-            className="w-30 mb-4"
-          />
+          <Link to='/'>
+            <img
+              src="https://ik.imagekit.io/grupo03/Vammo/vammoblack.png?updatedAt=1741184618721"
+              alt="Logo Vammo"
+              className="w-30 mb-4"
+            />
+          </Link>
 
           <h2 className="text-2xl font-bold">Entrar</h2>
           <p>Entre com seu email e senha</p>

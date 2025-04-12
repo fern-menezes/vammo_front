@@ -8,7 +8,6 @@ import SignUp from "./pages/signup/SignUp"
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
   function App() {
-
     return (
       <>
       <AuthProvider>
