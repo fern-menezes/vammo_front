@@ -1,0 +1,8 @@
+.fundoLogin {
+    background-image: url("https://ik.imagekit.io/grupo03/Vammo/car.png?updatedAt=1741184620379");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
